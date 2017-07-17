@@ -1,0 +1,55 @@
+{
+    "items":[
+        {
+             "text":"Very tasty Apple number 1",
+             "image":"/img/apple.jpg"
+        },
+        {
+            "text":"Very tasty Apple",
+            "image":"/img/apple.jpg"
+        },
+        {
+            "text":"Very tasty Apple",
+            "image":"/img/apple.jpg"
+        },
+        {
+            "text":"Very tasty Apple number 4",
+            "image":"/img/apple.jpg"
+        },
+        {
+            "text":"Very tasty Apple",
+            "image":"/img/apple.jpg"
+        },
+        {
+            "text":"Very tasty Apple number 5",
+            "image":"/img/apple.jpg"
+        },
+        {
+            "text":"Very tasty Apple",
+            "image":"/img/apple.jpg"
+        }
+    ], 
+    "services" : [
+        {
+            "name" : "Web Development",
+            "price" : 400,
+            "selected": false
+        },
+        {
+            "name" : "Design",
+            "price" : 200,
+            "selected": false
+        },
+        {
+            "name" : "Integration",
+            "price" : 300,
+            "selected": false
+        },
+        {
+            "name" : "Training",
+            "price" : 230,
+             "selected": false
+        }
+    ]
+
+}

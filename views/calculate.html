@@ -1,0 +1,10 @@
+<div class="wrapper">
+    <ul>
+        <li ng-repeat="service in services" ng-click="changeSelected(service)" ng-class="{selected:service.selected}">
+            {{service.name}} <span>{{service.price | currency}}</span>
+        </li>
+    </ul>
+    <div class="total">
+        Total: <span>{{sum() | currency}}</span>
+    </div>
+</div>

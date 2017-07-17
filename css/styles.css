@@ -1,0 +1,190 @@
+/* menu */
+nav{
+	margin:20px auto ;
+
+ text-align:center;
+
+}
+
+nav ul {
+	background-color:lightskyblue;
+  	display: inline-block;
+  	padding:0px;
+
+}
+
+nav a{
+	display:inline-block;
+	padding: 18px 50px;
+	color:#fff !important;
+	font-weight:bold;
+	font-size:16px;
+	text-decoration:none !important;
+	line-height:1;
+}
+
+nav a:hover {
+	 -webkit-transform: rotateZ(10deg);
+  -ms-transform: rotateZ(10deg);
+  transform: rotateZ(10deg);
+  background-color:red;
+  transition-duration: 0.25s;
+
+}
+
+
+nav.home .home,
+nav.update .update,
+nav.search .search,
+nav.calculate .calculate{
+	background-color:#F91F71;
+
+}
+
+li {
+	display: inline-block;
+}
+
+@media(max-width: 600px) {
+
+	nav ul {
+
+	 display:flex;
+	 flex-direction:column;
+	 justify-content:center;
+
+	}
+ nav a{
+	width:100%;
+	}
+}
+
+@media(max-width: 800px) {
+
+
+ nav a{
+	padding: 18px 30px;
+	}
+}
+
+
+#main {
+	margin:0 auto;
+	width:800px;
+	text-align:center;
+
+}
+
+
+.wrapper{
+	background-color:lightskyblue;
+	width: 80%;;
+	padding: 30px;
+	margin: auto;
+}
+
+
+.wrapper ul{
+	padding:0;
+	text-align: left;
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.wrapper ul li{
+	display:block;
+	padding:30px;
+	background-color:#F91F71;
+	margin-bottom:10px;
+}
+
+.wrapper ul li span{
+	float:right;
+}
+
+.wrapper ul li.selected{
+	background-color:green;
+}
+
+div.total{
+	border-top:1px solid rgba(255,255,255,0.5);
+	padding:10px;
+	font-size:20px;
+	font-weight:bold;
+	text-align: left;
+	color:#fff;
+}
+
+div.total span{
+	float:right;
+}
+
+.tab {
+	font-size:30px;
+	font-weight:bold;
+	display:flex;
+	justify-content:center;
+	flex-direction:row;
+
+}
+
+.tab b {
+	background-color:lightgrey;
+	margin: 0 10px;
+	padding:0 10px;
+		color:#fff;
+		display:block;
+	font-weight:bold;text-align:center;
+}
+
+.editor input{
+	line-height: 34px;
+	text-align: center;
+	font-size: 16px;
+	color: #8d9395;	font-weight: bold;
+	border:10px solid lightskyblue;;
+		width:60%;
+}
+
+
+.editor h1::before{
+  content:'✎'
+}
+
+.searchField input{
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	color: #8d9395;	font-weight: bold;
+	border:10px solid lightskyblue;
+	width:60%;
+}
+
+
+.searchField ul{
+
+	margin: 0 auto;
+	text-align: left;
+	width:60%;
+}
+
+.searchField ul li{
+	display:block;
+	border-bottom: 1px solid lightgrey;;
+	overflow: hidden;
+}
+
+.searchField ul li img{
+	width:100px;
+	height:100px;
+	float:left;
+	border:none;
+}
+
+.searchField ul li p{
+	margin-left: 135px;
+	font-weight: bold;
+	color: grey;
+	padding:30px 0;
+}
